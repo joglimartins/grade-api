@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: 'https://grade-api.herokuapp.com',
+    origin: 'https://desafio-grade-app.herokuapp.com',
   })
 );
 
